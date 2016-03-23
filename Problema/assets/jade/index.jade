@@ -1,0 +1,88 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="assets/css/main.css")
+    link(rel="stylesheet", href="assets/css/font-awesome.min.css")
+  body
+    // Fixed navbar
+    .navbar.navbar-default.navbar-fixed-top(role='navigation')
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+            span.sr-only Toggle navigation
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar
+          a.navbar-brand(href='#') FUTURE IMPERFECT
+        .navbar-collapse.collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href='#') Home
+            li
+              a(href='#') |
+            li
+              a(href='#about') About
+            li
+              a(href='#') |
+            li
+              a(href='#contact') Services
+            li
+              a(href='#') |
+            li
+              a(href='#contact') Galleries
+            li
+              a(href='#') |
+            li
+              a(href='#contact') Contact
+          ul.nav.navbar-nav.navbar-right
+            li.active
+              a.fa.fa-search(href="#search")
+        // /.nav-collapse
+    .container
+      .row.text-center
+        #hexa
+            a.logo(href="")
+              img(src="images/logo.jpg", alt="logo")
+        h1 FUTURE IMPERFECT
+        p ANOTHER FINE RESPONSIVE SITE TEMPLATE BY HTML5 UP
+    section.sed
+      .container
+        .row
+          .colum
+            .col-md-9
+              h1 MAGNA SED ADIPISCING
+              p LOREM IPSUM DOLOR AMET NULLAM CONSEQUAT ETIAM FEUGIAT
+            .col-md-3.magna
+              h4 NOVEMBER 1, 2015
+              span JANE DOE
+              img(src="images/avatar.jpg", alt="")
+          .mauris
+            img(src="images/pic01.jpg", alt="imagen1")
+            p Mauris neque quam, fermentum ut nisl viae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim,ac ccumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tullus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultrices congue gravida diam non fringilla.
+            button.btn.btn-default.text-left(type="button") CONTINUE READING
+            ul.nav.navbar-nav.navbar-right
+                  li.active
+                    a(href="")  GENERAL
+                  li
+                    a(href="") |
+                  li
+                    a.fa.fa-heart(href="")  28
+                  li
+                    a(href="") |
+                  li
+                    a.fa.fa-comment(href="")  128
+          ul.pager
+            li.active
+              a.fa.fa-angle-left(href="#") PREVIOUS PAGE
+            li
+              a(href="#") NEXT PAGE 
+                span.fa.fa-angle-right
+    
+
+    // Bootstrap core JavaScript
+    // ==================================================
+    // Placed at the end of the document so the pages load faster
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='#{pathToAssets}/dist/js/bootstrap.min.js')

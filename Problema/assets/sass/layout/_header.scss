@@ -1,0 +1,6 @@
+.navbar-header{
+	a{
+		@extend .bold;
+		@extend .espacio;
+	}
+}

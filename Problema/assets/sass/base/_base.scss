@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+*{
+	font-family: 'Raleway', sans-serif;
+}
+li{
+	a{
+		@extend .mayus;
+		@extend .espacio;
+		@extend .letcolor;
+	}
+}
+#hexa{
+	.logo{
+		border-bottom: 0;
+	    display: inline-block;
+	    margin: 0 0 1em 0;
+	    overflow: hidden;
+	    position: relative;
+		img{
+			display: block;
+	    	margin-left: -0.25em;
+	    	width: 10em;
+	    }
+		&:before{
+	    	background-image: url("../../images/hexagon2.png");
+	    	background-position: top left;
+	    	background-repeat: no-repeat;
+	    	background-size: cover;
+	    	content: '';
+	    	display: block;
+	    	height: 100%;
+	    	left: 0;
+	    	position: absolute;
+	    	top: 0;
+	    	width: 100%;
+	    }
+	}
+}

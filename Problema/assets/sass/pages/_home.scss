@@ -1,0 +1,50 @@
+body{
+	background: #F4F4F4;
+	padding-top: 70px;
+}
+.sed{
+	.row{
+		@extend .border;
+		background: #ffffff;
+		.colum{
+			@extend .border;
+			padding-bottom: 8.4%;
+			.col-md-9{
+			@extend .pd-l;
+			}
+			.magna{
+				border-left: 1px solid #c6c6c6;
+				padding: 1.3% 2%;
+				img{
+					width: 40px;
+					@extend .pd-l;
+					@extend .radius;
+				}
+			}
+		}
+		.mauris{
+				@extend .pd;
+			img{
+				@extend .padding;
+				@extend .timg
+			}
+			p{
+				@extend .padding;
+			}
+			button{
+				@extend .bold;
+				@extend .espacio;
+			}
+		}
+		.pager{
+			li{
+				font-family: 'Raleway', sans-serif;
+				a{
+					@extend .bold;
+					@extend .espacio;
+					@extend .letcolor;
+				}
+			}
+		}
+	}
+}
